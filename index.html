@@ -10,145 +10,76 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="site-header.css">
-    <link rel="stylesheet" href="site-main.css">
 
 
 </head>
 
 <body>
 
-    <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
-    </div><!-- end of container -->
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="header position-relative">
-        <div class="position-absolute d-flex justify-content-center" style='top: 0px; left: 0px; z-index: 50;'>
-            <div class="display-3 text-white">
-                Huhyn Restaurant
-                <br>
 
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                    Launch demo modal
+    <div class="container-fluid">
+        <div class="row section bg-success">
+
+        </div>
+        <div class="row navBarHeight">
+            <!-- NAVBAR START -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
+                <a class="navbar-brand" href="#"><img class="logo" src="images/logo.webp" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-
-
-
-
-            </div>
-
-        </div>
-        <div class="overlay w-100 h-100 bg-dark position-absolute "
-            style='top: 0px; left: 0px; z-index: 10; opacity:.5'>
-
-
-        </div>
-
-        <!-- VIDEO -->
-        <!-- <div class="video embed-responsive embed-responsive w-100 h-100 position-absolute"
-            style='top: 0px; left: 0px; z-index:1'>
-
-            <iframe src="https://www.youtube.com/embed/hz70ucYZyy4?autoplay=1&mute=1&enablejsapi=1"
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; webkitallowfullscreen; mozallowfullscreen; allowfullscreen"
-                allowfullscreen></iframe>
-
-        </div> -->
-
-    </div>
-
-    <div class="section bg-light w-100">
-        <div class="row">
-            <div class="col-6"></div>
-            <div class="col-6"></div>
-        </div>
-
-    </div>
-    <div class="section bg-dark w-100">
-        <div class="col-6">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6  imgHeight">
-                        <a href=""></a>
-                    </div>
-                    <div class="col imgHeight">
-                        <a href=""></a>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="row">
-                    <div class="col imgHeight"></div>
-                    <div class="col imgHeight"></div>
+            </nav>  <!-- NAVBAR END -->
+        <div class="row section">
+            <div class="col bg-primary">
+                <img class="img1" src="images/gens2.jpg" alt="">
+                
+            </div>
+        </div>
+
+        <div class="row section">
+            <div class="col bg-dark d-flex justify-content-center align-items-center">
+                <div class="bigtext">#TSO</div>
+            </div>
+        </div>
+        
+        <div class="row section">
+            <div class="col bg-primary">
+                <img class="img1" src="images/brocbeef.jpg" alt="">
+        
+            </div>
+        </div>
+
+        <div class="row section">
+            <div class="col bg-dark d-flex justify-content-center">
+                <div class="col-6 bg-light m-5">
+                    <!--Google map-->
+                    <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13857.556669706815!2d-95.3907192!3d29.7374483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x543b4e679e9935ac!2sGeneral+Joe&#39;s+Chopstix!5e0!3m2!1sen!2sus!4v1557107641710!5m2!1sen!2sus" frameborder="0"
+                            style="border:0" allowfullscreen></iframe>
+                    </div>
+                    
+                    <!--Google Maps-->
                 </div>
             </div>
         </div>
-        <div class="col-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident delectus ipsam minima vel praesentium et
-            porro quibusdam dicta assumenda maxime sed corporis, asperiores sapiente itaque dignissimos enim molestias
-            cupiditate id.
-        </div>
-
     </div>
-    <div class="section bg-light w-100">
-        <div class="row">
-            <div class="col-6"></div>
-            <div class="col-6"></div>
-        </div>
 
-    </div>
-    <div class="section bg-dark w-100">
-        <div class="col-6"></div>
-        <div class="col-6"></div>
-
-    </div>
 
 
 

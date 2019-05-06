@@ -1,4 +1,73 @@
-.header{
-    height:300px;
+.navBarHeight {
+    height: 10vh;
+}
+
+.section {
+    width: 101vw;
+    height: 50vh;
+}
+
+.logo {
+    height: 70px;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.img1{
+    width: 100vw;
+}
+
+.hashtag{
+    color: white;
+    font-size: 300px;
+}
+
+.overlay{
+    position: absolute;
+    top: 11vh;
+    left: 0vw;
+    height: 50vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: black;
+    opacity: .3;
+}
+
+.overlayText{
+    position: absolute;
+    top: 11vh;
+    left: 0vw;
+    height: 50vh;
+    width: 100vw;
+    z-index: 2;
+}
+
+.bigtext{
+    color: white;
+    font-size: 40vh;
+}
+
+.section1{
+    background-color: rgb(255, 242, 242);
+}
+
+.bodyLogo{
+    width: 300px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
     
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }
